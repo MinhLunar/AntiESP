@@ -1,0 +1,19 @@
+name: AntiESP
+version: 1.0.0
+main: com.minhlunar.antiesp.AntiESPPlugin
+description: Prevent ESP cheats from detecting bases and structures
+authors:
+  - MinhLunar
+
+api-version: "1.21"
+
+commands:
+  antiesp:
+    description: AntiESP admin commands
+    usage: /antiesp [reload|status|help]
+    permission: antiesp.admin
+
+permissions:
+  antiesp.admin:
+    description: Allows access to AntiESP admin commands
+    default: op
